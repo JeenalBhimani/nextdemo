@@ -66,8 +66,6 @@ export async function getStaticProps(context) {
             notFound: true,
         }
     }
-
-    console.log(data)
     return {
         props: {
             products: data,

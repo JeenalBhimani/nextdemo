@@ -9,11 +9,19 @@ function index() {
           go to UserList
         </a>
       </Link>
+      <br />
       <Link href="/posts">
         <a>
           go to PostList
         </a>
       </Link>
+      <br />
+      <Link href="/news">
+        <a>
+          go to newslist
+        </a>
+      </Link>
+      <br />
     </>
   )
 }
